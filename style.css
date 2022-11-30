@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Ubuntu&display=swap");
+/*   Sass Template   */
+/* Global Classess*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography Classes */
+.font-manrope {
+  font-family: "Manrope", cursive;
+}
+
+.font-ubuntu {
+  font-family: "Ubuntu", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template */
+.color-primary {
+  color: rgb(5, 165, 5);
+}
+
+.color-primary-bg {
+  background: rgb(5, 165, 5);
+}
+
+.color-second {
+  color: rgb(115, 245, 132);
+}
+
+.color-second-bg {
+  background: rgb(115, 245, 132);
+}
+
+.color-brown {
+  color: brown;
+}
+
+.color-brown-bg {
+  background: brown;
+}
+
+.color-black {
+  color: black;
+}
+
+/* Top Sale Template */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 500ms ease;
+  height: 100px;
+}
+#top-sale .item {
+  font-size: 12px;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.05);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 10%;
+  outline: none;
+  font-size: 12px;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 50px;
+  color: black;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+#special-price .grid .grid-item img {
+  height: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
